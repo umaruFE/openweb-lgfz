@@ -48,15 +48,15 @@
 	};
 
 	const verifyOpenAIHandler = async () => {
-		const res = await verifyOpenAIConnection(localStorage.token, url, key, direct).catch(
-			(error) => {
-				toast.error(`${error}`);
-			}
-		);
+		// const res = await verifyOpenAIConnection(localStorage.token, url, key, direct).catch(
+		// 	(error) => {
+		// 		toast.error(`${error}`);
+		// 	}
+		// );
 
-		if (res) {
-			toast.success($i18n.t('Server connection verified'));
-		}
+		// if (res) {
+		// 	toast.success($i18n.t('Server connection verified'));
+		// }
 	};
 
 	const verifyHandler = () => {
