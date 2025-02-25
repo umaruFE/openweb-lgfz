@@ -267,7 +267,7 @@ export const getOpenAIModels = async (token: string, urlIdx?: number) => {
 
 export const verifyOpenAIConnection = async (
 	token: string = '',
-	url: string = '',
+	url: string = 'https://api.openai.com/v1',
 	key: string = '',
 	direct: boolean = false
 ) => {
